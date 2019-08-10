@@ -1,9 +1,15 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-
+function closure() {
+  let hidden = "This is an example of a closure";
+  function displayHidden() {
+    console.log(hidden);
+  }
+  displayHidden();
+}
+closure();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
-
 
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
