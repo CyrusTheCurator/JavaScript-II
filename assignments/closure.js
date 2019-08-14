@@ -5,7 +5,7 @@ function closure() {
   function displayHidden() {
     console.log(hidden);
   }
-  displayHidden();
+  return displayHidden();
 }
 closure();
 
